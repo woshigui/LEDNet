@@ -15,8 +15,8 @@ if __name__ == '__main__':
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--test_path', type=str, default='datasets/sharp')
-    parser.add_argument('--result_path', type=str, default='datasets/blur')
+    parser.add_argument('--test_path', type=str, default='/mnt/lustre/sczhou/datasets/deblurring/LOLBlur/high_sharp_scaled')
+    parser.add_argument('--result_path', type=str, default='results/darken_imgs')
     parser.add_argument('--model_path', type=str, default='weights/ce_zerodce.pth',)
 
     args = parser.parse_args()
