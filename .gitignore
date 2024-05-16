@@ -9,7 +9,7 @@ version.py
 # *.jpeg
 # *.jpg
 *.gif
-*.pth
+#*.pth
 *.dat
 *.zip
 
